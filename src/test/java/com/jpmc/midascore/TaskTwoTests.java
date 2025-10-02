@@ -20,7 +20,7 @@ class TaskTwoTests {
     @Autowired
     private FileLoader fileLoader;
 
-    @Test
+    @Test 
     void task_two_verifier() throws InterruptedException {
         String[] transactionLines = fileLoader.loadStrings("/test_data/poiuytrewq.uiop");
         for (String transactionLine : transactionLines) {
